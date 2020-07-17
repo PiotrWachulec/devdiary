@@ -10,5 +10,15 @@
 	<atom:link href="https://devdiary.wachulec.me/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Privacy</title>
+      <link>https://devdiary.wachulec.me/privacy/</link>
+      <pubDate>Thu, 16 Jul 2020 20:44:16 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/privacy/</guid>
+      <description>Hi!
+If you visit this site, you are probably interested in protecting your personal data.</description>
+    </item>
+    
   </channel>
 </rss>
