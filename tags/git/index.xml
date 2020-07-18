@@ -13,10 +13,10 @@
     
     <item>
       <title>How to update submodules in Git repo?</title>
-      <link>https://devdiary.wachulec.me/posts/how-to-enable-raw-html-in-hugo/</link>
+      <link>https://devdiary.wachulec.me/posts/how-to-update-submodules-in-git-repo/</link>
       <pubDate>Sat, 18 Jul 2020 10:24:45 +0200</pubDate>
       
-      <guid>https://devdiary.wachulec.me/posts/how-to-enable-raw-html-in-hugo/</guid>
+      <guid>https://devdiary.wachulec.me/posts/how-to-update-submodules-in-git-repo/</guid>
       <description>If you would like to update submodules in your git repository, you have to call below command:</description>
     </item>
     
