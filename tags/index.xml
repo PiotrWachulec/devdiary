@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Piotr Wachulec DevDiary</title>
+    <title>Tags on DevDiary</title>
     <link>https://devdiary.wachulec.me/tags/</link>
-    <description>Recent content in Tags on Piotr Wachulec DevDiary</description>
+    <description>Recent content in Tags on DevDiary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 18 Jul 2020 09:43:22 +0200</lastBuildDate>
     
 	<atom:link href="https://devdiary.wachulec.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>html</title>
+      <link>https://devdiary.wachulec.me/tags/html/</link>
+      <pubDate>Sat, 18 Jul 2020 09:43:22 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://devdiary.wachulec.me/tags/hugo/</link>
+      <pubDate>Sat, 18 Jul 2020 09:43:22 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/tags/hugo/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

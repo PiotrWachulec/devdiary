@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Piotr Wachulec DevDiary</title>
+    <title>Categories on DevDiary</title>
     <link>https://devdiary.wachulec.me/categories/</link>
-    <description>Recent content in Categories on Piotr Wachulec DevDiary</description>
+    <description>Recent content in Categories on DevDiary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 18 Jul 2020 09:43:22 +0200</lastBuildDate>
     
 	<atom:link href="https://devdiary.wachulec.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Administration</title>
+      <link>https://devdiary.wachulec.me/categories/administration/</link>
+      <pubDate>Sat, 18 Jul 2020 09:43:22 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/categories/administration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static pages</title>
+      <link>https://devdiary.wachulec.me/categories/static-pages/</link>
+      <pubDate>Sat, 18 Jul 2020 09:43:22 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/categories/static-pages/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
