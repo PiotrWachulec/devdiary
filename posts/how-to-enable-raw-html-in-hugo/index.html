@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light"><head>
-    <title> Piotr Wachulec | How to Enable Raw Html in Hugo? </title>
+    <title> Piotr Wachulec | How to update submodules in Git repo? </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="It&#39;s my handy diary. If I have to hack something during my daily dev work, I&#39;m writing about it here to not forget.">
     
@@ -15,8 +15,8 @@
     
     <script type="text/javascript" src="https://devdiary.wachulec.me/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="How to Enable Raw Html in Hugo?"/>
-<meta name="twitter:description" content="If you would like to add some custom html in Markdown file in Hugo, you have to enable it."/>
+<meta name="twitter:title" content="How to update submodules in Git repo?"/>
+<meta name="twitter:description" content="Here you can find info how to update submodules in Git repository."/>
 
 </head><body><div class="sidebar animated fadeInDown">
     <div class="logo-title">
@@ -125,36 +125,23 @@
     <div class="post-content">
 
       <div class="post-title">
-        <h3>How to Enable Raw Html in Hugo?
+        <h3>How to update submodules in Git repo?
         </h3>
         
         </div>
 
-    <p>If you would like to add some custom html in Markdown file in Hugo, because for example you want to embed something, you have to add below lines in <code>config.toml</code> file:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">markup</span><span class="p">]</span>
-    <span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">goldmark</span><span class="p">]</span>
-        <span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">goldmark</span><span class="p">.</span><span class="nx">renderer</span><span class="p">]</span>
-            <span class="nx">unsafe</span> <span class="p">=</span> <span class="kc">true</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>Helpful resource: <a href="https://discourse.gohugo.io/t/raw-html-getting-omitted-in-0-60-0/22032">Raw HTML getting omitted in 0.60.0</a></p>
+    <p>If you would like to update submodules in your git repository, you have to call below command:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git submodule update --remote --merge
+</code></pre></div><p>Then you have to add new changes in submodules and commit them classic.</p>
 
     </div>
     <div class="post-footer">
       <div class="info">
         
-<span class="separator"><a class="category" href="/categories/static-pages/">Static pages</a><a class="category" href="/categories/administration/">Administration</a></span>
+<span class="separator"><a class="category" href="/categories/development/">Development</a></span>
 
         
-    <span class="separator"><a class="tag" href="/tags/hugo/">hugo</a><a class="tag" href="/tags/html/">html</a></span>
+    <span class="separator"><a class="tag" href="/tags/git/">git</a></span>
 
       </div>
     </div>
