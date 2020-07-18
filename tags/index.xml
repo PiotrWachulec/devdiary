@@ -6,10 +6,46 @@
     <description>Recent content in Tags on DevDiary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jul 2020 10:24:45 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2020 12:52:41 +0200</lastBuildDate>
     
 	<atom:link href="https://devdiary.wachulec.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>custom domain</title>
+      <link>https://devdiary.wachulec.me/tags/custom-domain/</link>
+      <pubDate>Sat, 18 Jul 2020 12:52:41 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/tags/custom-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dns</title>
+      <link>https://devdiary.wachulec.me/tags/dns/</link>
+      <pubDate>Sat, 18 Jul 2020 12:52:41 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://devdiary.wachulec.me/tags/hugo/</link>
+      <pubDate>Sat, 18 Jul 2020 12:52:41 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssl</title>
+      <link>https://devdiary.wachulec.me/tags/ssl/</link>
+      <pubDate>Sat, 18 Jul 2020 12:52:41 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/tags/ssl/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>git</title>
@@ -26,15 +62,6 @@
       <pubDate>Sat, 18 Jul 2020 09:43:22 +0200</pubDate>
       
       <guid>https://devdiary.wachulec.me/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://devdiary.wachulec.me/tags/hugo/</link>
-      <pubDate>Sat, 18 Jul 2020 09:43:22 +0200</pubDate>
-      
-      <guid>https://devdiary.wachulec.me/tags/hugo/</guid>
       <description></description>
     </item>
     
