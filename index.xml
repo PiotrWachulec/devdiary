@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>About</title>
+      <link>https://devdiary.wachulec.me/about/</link>
+      <pubDate>Sat, 18 Jul 2020 09:15:59 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/about/</guid>
+      <description>Hi! My name is Piotr. Let me tell you something about me.</description>
+    </item>
+    
+    <item>
       <title>Privacy</title>
       <link>https://devdiary.wachulec.me/privacy/</link>
       <pubDate>Thu, 16 Jul 2020 20:44:16 +0200</pubDate>
