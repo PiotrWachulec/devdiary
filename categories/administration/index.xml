@@ -13,19 +13,19 @@
     
     <item>
       <title>How to configure DNS for GitHub Pages with custom subdomain?</title>
-      <link>https://devdiary.wachulec.me/posts/how-to-configure-dns-for-github-pages-with-custom-subdomain/</link>
+      <link>https://devdiary.wachulec.me/post/how-to-configure-dns-for-github-pages-with-custom-subdomain/</link>
       <pubDate>Sat, 18 Jul 2020 12:52:41 +0200</pubDate>
       
-      <guid>https://devdiary.wachulec.me/posts/how-to-configure-dns-for-github-pages-with-custom-subdomain/</guid>
+      <guid>https://devdiary.wachulec.me/post/how-to-configure-dns-for-github-pages-with-custom-subdomain/</guid>
       <description>The case The case is as follows: I bought a domain.</description>
     </item>
     
     <item>
       <title>How to enable raw html in Hugo?</title>
-      <link>https://devdiary.wachulec.me/posts/how-to-enable-raw-html-in-hugo/</link>
+      <link>https://devdiary.wachulec.me/post/how-to-enable-raw-html-in-hugo/</link>
       <pubDate>Sat, 18 Jul 2020 09:43:22 +0200</pubDate>
       
-      <guid>https://devdiary.wachulec.me/posts/how-to-enable-raw-html-in-hugo/</guid>
+      <guid>https://devdiary.wachulec.me/post/how-to-enable-raw-html-in-hugo/</guid>
       <description>If you would like to add some custom html in Markdown file in Hugo, because for example you want to embed something, you have to add below lines in config.</description>
     </item>
     

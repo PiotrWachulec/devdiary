@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on DevDiary</title>
-    <link>https://devdiary.wachulec.me/posts/</link>
+    <link>https://devdiary.wachulec.me/post/</link>
     <description>Recent content in Posts on DevDiary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Jul 2020 12:52:41 +0200</lastBuildDate>
     
-	<atom:link href="https://devdiary.wachulec.me/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devdiary.wachulec.me/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to configure DNS for GitHub Pages with custom subdomain?</title>
-      <link>https://devdiary.wachulec.me/posts/how-to-configure-dns-for-github-pages-with-custom-subdomain/</link>
+      <link>https://devdiary.wachulec.me/post/how-to-configure-dns-for-github-pages-with-custom-subdomain/</link>
       <pubDate>Sat, 18 Jul 2020 12:52:41 +0200</pubDate>
       
-      <guid>https://devdiary.wachulec.me/posts/how-to-configure-dns-for-github-pages-with-custom-subdomain/</guid>
+      <guid>https://devdiary.wachulec.me/post/how-to-configure-dns-for-github-pages-with-custom-subdomain/</guid>
       <description>The case The case is as follows: I bought a domain.</description>
     </item>
     
     <item>
       <title>How to update submodules in Git repo?</title>
-      <link>https://devdiary.wachulec.me/posts/how-to-update-submodules-in-git-repo/</link>
+      <link>https://devdiary.wachulec.me/post/how-to-update-submodules-in-git-repo/</link>
       <pubDate>Sat, 18 Jul 2020 10:24:45 +0200</pubDate>
       
-      <guid>https://devdiary.wachulec.me/posts/how-to-update-submodules-in-git-repo/</guid>
+      <guid>https://devdiary.wachulec.me/post/how-to-update-submodules-in-git-repo/</guid>
       <description>If you would like to update submodules in your git repository, you have to call below command:</description>
     </item>
     
     <item>
       <title>How to enable raw html in Hugo?</title>
-      <link>https://devdiary.wachulec.me/posts/how-to-enable-raw-html-in-hugo/</link>
+      <link>https://devdiary.wachulec.me/post/how-to-enable-raw-html-in-hugo/</link>
       <pubDate>Sat, 18 Jul 2020 09:43:22 +0200</pubDate>
       
-      <guid>https://devdiary.wachulec.me/posts/how-to-enable-raw-html-in-hugo/</guid>
+      <guid>https://devdiary.wachulec.me/post/how-to-enable-raw-html-in-hugo/</guid>
       <description>If you would like to add some custom html in Markdown file in Hugo, because for example you want to embed something, you have to add below lines in config.</description>
     </item>
     
