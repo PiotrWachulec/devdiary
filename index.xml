@@ -6,10 +6,19 @@
     <description>Recent content on DevDiary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2020 08:25:58 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2020 08:42:36 +0200</lastBuildDate>
     
 	<atom:link href="https://devdiary.wachulec.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to set folder name during cloning Git repository?</title>
+      <link>https://devdiary.wachulec.me/post/how-to-set-folder-name-during-cloning-repo/</link>
+      <pubDate>Wed, 22 Jul 2020 08:42:36 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/post/how-to-set-folder-name-during-cloning-repo/</guid>
+      <description>You want to clone repository to specific folder, for example because you have some naming convention on your disk.</description>
+    </item>
     
     <item>
       <title>How to autostart service when system wakes up in Ubuntu 18.04?</title>
