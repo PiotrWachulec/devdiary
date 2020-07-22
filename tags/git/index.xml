@@ -13,10 +13,10 @@
     
     <item>
       <title>How to checkout remote branch?</title>
-      <link>https://devdiary.wachulec.me/post/2020-07-21-i00-how-to-checkout-remote-branch/</link>
+      <link>https://devdiary.wachulec.me/post/how-to-checkout-remote-branch/</link>
       <pubDate>Tue, 21 Jul 2020 18:01:11 +0200</pubDate>
       
-      <guid>https://devdiary.wachulec.me/post/2020-07-21-i00-how-to-checkout-remote-branch/</guid>
+      <guid>https://devdiary.wachulec.me/post/how-to-checkout-remote-branch/</guid>
       <description>For checkout remote branch you have to call git checkout command with --track flag.</description>
     </item>
     

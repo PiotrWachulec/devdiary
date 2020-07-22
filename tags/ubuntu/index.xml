@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ubuntu on DevDiary</title>
+    <link>https://devdiary.wachulec.me/tags/ubuntu/</link>
+    <description>Recent content in ubuntu on DevDiary</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jul 2020 08:25:58 +0200</lastBuildDate>
+    
+	<atom:link href="https://devdiary.wachulec.me/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to autostart service when system wakes up in Ubuntu 18.04?</title>
+      <link>https://devdiary.wachulec.me/post/how-to-autostart-service-when-system-wakes-up-in-ubuntu-1804/</link>
+      <pubDate>Wed, 22 Jul 2020 08:25:58 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/post/how-to-autostart-service-when-system-wakes-up-in-ubuntu-1804/</guid>
+      <description>If you would like to have some service starting automatically when system is up, you have to call below command:</description>
+    </item>
+    
+  </channel>
+</rss>

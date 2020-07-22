@@ -6,17 +6,26 @@
     <description>Recent content in Posts on DevDiary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2020 18:01:11 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2020 08:25:58 +0200</lastBuildDate>
     
 	<atom:link href="https://devdiary.wachulec.me/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>How to autostart service when system wakes up in Ubuntu 18.04?</title>
+      <link>https://devdiary.wachulec.me/post/how-to-autostart-service-when-system-wakes-up-in-ubuntu-1804/</link>
+      <pubDate>Wed, 22 Jul 2020 08:25:58 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/post/how-to-autostart-service-when-system-wakes-up-in-ubuntu-1804/</guid>
+      <description>If you would like to have some service starting automatically when system is up, you have to call below command:</description>
+    </item>
+    
+    <item>
       <title>How to checkout remote branch?</title>
-      <link>https://devdiary.wachulec.me/post/2020-07-21-i00-how-to-checkout-remote-branch/</link>
+      <link>https://devdiary.wachulec.me/post/how-to-checkout-remote-branch/</link>
       <pubDate>Tue, 21 Jul 2020 18:01:11 +0200</pubDate>
       
-      <guid>https://devdiary.wachulec.me/post/2020-07-21-i00-how-to-checkout-remote-branch/</guid>
+      <guid>https://devdiary.wachulec.me/post/how-to-checkout-remote-branch/</guid>
       <description>For checkout remote branch you have to call git checkout command with --track flag.</description>
     </item>
     
