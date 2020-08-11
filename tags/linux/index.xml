@@ -6,10 +6,19 @@
     <description>Recent content in linux on DevDiary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2020 08:25:58 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2020 07:13:01 +0200</lastBuildDate>
     
 	<atom:link href="https://devdiary.wachulec.me/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to check folder size on Ubuntu?</title>
+      <link>https://devdiary.wachulec.me/post/2020-08-11-i00-how-to-check-folder-size-on-ubuntu/</link>
+      <pubDate>Tue, 11 Aug 2020 07:13:01 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/post/2020-08-11-i00-how-to-check-folder-size-on-ubuntu/</guid>
+      <description>To check folder size on Ubuntu you have to call the command below:</description>
+    </item>
     
     <item>
       <title>How to autostart service when system wakes up in Ubuntu 18.04?</title>

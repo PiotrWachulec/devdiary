@@ -6,24 +6,15 @@
     <description>Recent content in Tags on DevDiary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2020 08:42:36 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2020 07:13:01 +0200</lastBuildDate>
     
 	<atom:link href="https://devdiary.wachulec.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>git</title>
-      <link>https://devdiary.wachulec.me/tags/git/</link>
-      <pubDate>Wed, 22 Jul 2020 08:42:36 +0200</pubDate>
-      
-      <guid>https://devdiary.wachulec.me/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>linux</title>
       <link>https://devdiary.wachulec.me/tags/linux/</link>
-      <pubDate>Wed, 22 Jul 2020 08:25:58 +0200</pubDate>
+      <pubDate>Tue, 11 Aug 2020 07:13:01 +0200</pubDate>
       
       <guid>https://devdiary.wachulec.me/tags/linux/</guid>
       <description></description>
@@ -32,9 +23,18 @@
     <item>
       <title>ubuntu</title>
       <link>https://devdiary.wachulec.me/tags/ubuntu/</link>
-      <pubDate>Wed, 22 Jul 2020 08:25:58 +0200</pubDate>
+      <pubDate>Tue, 11 Aug 2020 07:13:01 +0200</pubDate>
       
       <guid>https://devdiary.wachulec.me/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://devdiary.wachulec.me/tags/git/</link>
+      <pubDate>Wed, 22 Jul 2020 08:42:36 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/tags/git/</guid>
       <description></description>
     </item>
     
