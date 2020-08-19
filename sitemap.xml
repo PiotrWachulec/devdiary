@@ -4,52 +4,67 @@
   
   <url>
     <loc>https://devdiary.wachulec.me/categories/administration/</loc>
-    <lastmod>2020-08-11T09:07:36+02:00</lastmod>
+    <lastmod>2020-08-19T18:42:12+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://devdiary.wachulec.me/categories/</loc>
-    <lastmod>2020-08-11T09:07:36+02:00</lastmod>
+    <lastmod>2020-08-19T18:42:12+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://devdiary.wachulec.me/</loc>
-    <lastmod>2020-08-11T09:07:36+02:00</lastmod>
+    <lastmod>2020-08-19T18:42:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devdiary.wachulec.me/post/how-to-synchronize-folders-content-automatically-on-ubuntu/</loc>
+    <lastmod>2020-08-19T18:42:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devdiary.wachulec.me/tags/linux/</loc>
+    <lastmod>2020-08-19T18:42:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devdiary.wachulec.me/post/</loc>
+    <lastmod>2020-08-19T18:42:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devdiary.wachulec.me/tags/</loc>
+    <lastmod>2020-08-19T18:42:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devdiary.wachulec.me/tags/ubuntu/</loc>
+    <lastmod>2020-08-19T18:42:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devdiary.wachulec.me/post/how-to-reload-kernel-modules-responsible-for-bluetooth-on-ubuntu-1804/</loc>
+    <lastmod>2020-08-19T18:22:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devdiary.wachulec.me/categories/development/</loc>
+    <lastmod>2020-08-19T18:16:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devdiary.wachulec.me/tags/git/</loc>
+    <lastmod>2020-08-19T18:16:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devdiary.wachulec.me/post/how-to-update-forked-repo-with-changes-from-main-repository/</loc>
+    <lastmod>2020-08-19T18:16:05+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://devdiary.wachulec.me/post/how-to-check-folder-size-on-ubuntu/</loc>
     <lastmod>2020-08-11T09:07:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devdiary.wachulec.me/tags/linux/</loc>
-    <lastmod>2020-08-11T09:07:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devdiary.wachulec.me/post/</loc>
-    <lastmod>2020-08-11T09:07:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devdiary.wachulec.me/tags/</loc>
-    <lastmod>2020-08-11T09:07:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devdiary.wachulec.me/tags/ubuntu/</loc>
-    <lastmod>2020-08-11T09:07:36+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devdiary.wachulec.me/categories/development/</loc>
-    <lastmod>2020-07-22T08:57:22+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devdiary.wachulec.me/tags/git/</loc>
-    <lastmod>2020-07-22T08:57:22+02:00</lastmod>
   </url>
   
   <url>

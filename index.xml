@@ -6,10 +6,37 @@
     <description>Recent content on DevDiary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2020 07:13:01 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2020 18:31:48 +0200</lastBuildDate>
     
 	<atom:link href="https://devdiary.wachulec.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to synchronize folders&#39; content automatically on Ubuntu?</title>
+      <link>https://devdiary.wachulec.me/post/how-to-synchronize-folders-content-automatically-on-ubuntu/</link>
+      <pubDate>Wed, 19 Aug 2020 18:31:48 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/post/how-to-synchronize-folders-content-automatically-on-ubuntu/</guid>
+      <description>To synchronize folders&amp;rsquo; content on Ubuntu you can use Rsync. It is a tool designed specially for that purposes.</description>
+    </item>
+    
+    <item>
+      <title>How to reload kernel modules responsible for bluetooth on Ubuntu 18.04?</title>
+      <link>https://devdiary.wachulec.me/post/how-to-reload-kernel-modules-responsible-for-bluetooth-on-ubuntu-1804/</link>
+      <pubDate>Wed, 19 Aug 2020 18:17:48 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/post/how-to-reload-kernel-modules-responsible-for-bluetooth-on-ubuntu-1804/</guid>
+      <description>Bluetooth in my laptop from time to time crash. Restarting kernel modules could be useful to easy and quick fix it.</description>
+    </item>
+    
+    <item>
+      <title>How to update forked repo with changes from main repository?</title>
+      <link>https://devdiary.wachulec.me/post/how-to-update-forked-repo-with-changes-from-main-repository/</link>
+      <pubDate>Wed, 19 Aug 2020 18:08:38 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/post/how-to-update-forked-repo-with-changes-from-main-repository/</guid>
+      <description>First of all you have to add new remote in your cloned forked repo</description>
+    </item>
     
     <item>
       <title>How to check folder size on Ubuntu?</title>
