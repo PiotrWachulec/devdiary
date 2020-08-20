@@ -6,10 +6,37 @@
     <description>Recent content on DevDiary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2020 18:31:48 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2020 11:15:05 +0200</lastBuildDate>
     
 	<atom:link href="https://devdiary.wachulec.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to schedule job on Ubuntu?</title>
+      <link>https://devdiary.wachulec.me/post/how-to-schedule-job-on-ubuntu/</link>
+      <pubDate>Thu, 20 Aug 2020 11:15:05 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/post/how-to-schedule-job-on-ubuntu/</guid>
+      <description>For scheduling job you should use Cron. It is a time-based job scheduler.</description>
+    </item>
+    
+    <item>
+      <title>Syntax highlighting in LaTeX</title>
+      <link>https://devdiary.wachulec.me/post/syntax-highlighting-in-latex/</link>
+      <pubDate>Thu, 20 Aug 2020 11:02:03 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/post/syntax-highlighting-in-latex/</guid>
+      <description>First of all, you have to add new package to your document:</description>
+    </item>
+    
+    <item>
+      <title>Latex: Addcontentsline break page numeration in table of content</title>
+      <link>https://devdiary.wachulec.me/post/latex-addcontentsline-break-page-numeration-in-toc/</link>
+      <pubDate>Thu, 20 Aug 2020 10:46:45 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/post/latex-addcontentsline-break-page-numeration-in-toc/</guid>
+      <description>In some of my documents I have the secion below:</description>
+    </item>
     
     <item>
       <title>How to synchronize folders&#39; content automatically on Ubuntu?</title>

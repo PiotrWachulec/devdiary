@@ -6,10 +6,19 @@
     <description>Recent content in Administration on DevDiary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2020 18:31:48 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2020 11:15:05 +0200</lastBuildDate>
     
 	<atom:link href="https://devdiary.wachulec.me/categories/administration/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to schedule job on Ubuntu?</title>
+      <link>https://devdiary.wachulec.me/post/how-to-schedule-job-on-ubuntu/</link>
+      <pubDate>Thu, 20 Aug 2020 11:15:05 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/post/how-to-schedule-job-on-ubuntu/</guid>
+      <description>For scheduling job you should use Cron. It is a time-based job scheduler.</description>
+    </item>
     
     <item>
       <title>How to synchronize folders&#39; content automatically on Ubuntu?</title>

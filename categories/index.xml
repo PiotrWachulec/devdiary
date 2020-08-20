@@ -6,7 +6,7 @@
     <description>Recent content in Categories on DevDiary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2020 18:31:48 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2020 11:15:05 +0200</lastBuildDate>
     
 	<atom:link href="https://devdiary.wachulec.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Administration</title>
       <link>https://devdiary.wachulec.me/categories/administration/</link>
-      <pubDate>Wed, 19 Aug 2020 18:31:48 +0200</pubDate>
+      <pubDate>Thu, 20 Aug 2020 11:15:05 +0200</pubDate>
       
       <guid>https://devdiary.wachulec.me/categories/administration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Documentation</title>
+      <link>https://devdiary.wachulec.me/categories/documentation/</link>
+      <pubDate>Thu, 20 Aug 2020 11:02:03 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/categories/documentation/</guid>
       <description></description>
     </item>
     
