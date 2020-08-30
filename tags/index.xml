@@ -6,7 +6,7 @@
     <description>Recent content in Tags on DevDiary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Aug 2020 09:26:04 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2020 20:05:33 +0200</lastBuildDate>
     
 	<atom:link href="https://devdiary.wachulec.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>linux</title>
       <link>https://devdiary.wachulec.me/tags/linux/</link>
-      <pubDate>Thu, 27 Aug 2020 09:26:04 +0200</pubDate>
+      <pubDate>Sun, 30 Aug 2020 20:05:33 +0200</pubDate>
       
       <guid>https://devdiary.wachulec.me/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privileges</title>
+      <link>https://devdiary.wachulec.me/tags/privileges/</link>
+      <pubDate>Sun, 30 Aug 2020 20:05:33 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/tags/privileges/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://devdiary.wachulec.me/tags/ubuntu/</link>
+      <pubDate>Sun, 30 Aug 2020 20:05:33 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/tags/ubuntu/</guid>
       <description></description>
     </item>
     
@@ -26,15 +44,6 @@
       <pubDate>Thu, 27 Aug 2020 09:26:04 +0200</pubDate>
       
       <guid>https://devdiary.wachulec.me/tags/snap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ubuntu</title>
-      <link>https://devdiary.wachulec.me/tags/ubuntu/</link>
-      <pubDate>Thu, 27 Aug 2020 09:26:04 +0200</pubDate>
-      
-      <guid>https://devdiary.wachulec.me/tags/ubuntu/</guid>
       <description></description>
     </item>
     
