@@ -3,48 +3,73 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://devdiary.wachulec.me/categories/administration/</loc>
-    <lastmod>2020-08-20T11:37:46+02:00</lastmod>
+    <loc>https://devdiary.wachulec.me/categories/administraion/</loc>
+    <lastmod>2020-08-30T20:15:11+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://devdiary.wachulec.me/categories/</loc>
-    <lastmod>2020-08-20T11:37:46+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devdiary.wachulec.me/tags/cron/</loc>
-    <lastmod>2020-08-20T11:37:46+02:00</lastmod>
+    <lastmod>2020-08-30T20:15:11+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://devdiary.wachulec.me/</loc>
-    <lastmod>2020-08-20T11:37:46+02:00</lastmod>
+    <lastmod>2020-08-30T20:15:11+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devdiary.wachulec.me/post/how-to-schedule-job-on-ubuntu/</loc>
-    <lastmod>2020-08-20T11:37:46+02:00</lastmod>
+    <loc>https://devdiary.wachulec.me/post/how-to-add-permissions-to-hard-drives/</loc>
+    <lastmod>2020-08-30T20:15:11+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://devdiary.wachulec.me/tags/linux/</loc>
-    <lastmod>2020-08-20T11:37:46+02:00</lastmod>
+    <lastmod>2020-08-30T20:15:11+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://devdiary.wachulec.me/post/</loc>
-    <lastmod>2020-08-20T11:37:46+02:00</lastmod>
+    <lastmod>2020-08-30T20:15:11+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devdiary.wachulec.me/tags/privileges/</loc>
+    <lastmod>2020-08-30T20:15:11+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://devdiary.wachulec.me/tags/</loc>
-    <lastmod>2020-08-20T11:37:46+02:00</lastmod>
+    <lastmod>2020-08-30T20:15:11+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://devdiary.wachulec.me/tags/ubuntu/</loc>
-    <lastmod>2020-08-20T11:37:46+02:00</lastmod>
+    <lastmod>2020-08-30T20:15:11+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devdiary.wachulec.me/categories/administration/</loc>
+    <lastmod>2020-08-27T18:01:41+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devdiary.wachulec.me/post/how-to-allow-use-not-system-disks/</loc>
+    <lastmod>2020-08-27T18:01:41+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devdiary.wachulec.me/tags/snap/</loc>
+    <lastmod>2020-08-27T18:01:41+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devdiary.wachulec.me/tags/cron/</loc>
+    <lastmod>2020-08-27T18:01:30+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devdiary.wachulec.me/post/how-to-schedule-job-on-ubuntu/</loc>
+    <lastmod>2020-08-27T18:01:30+02:00</lastmod>
   </url>
   
   <url>

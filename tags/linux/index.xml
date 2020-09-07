@@ -6,10 +6,28 @@
     <description>Recent content in linux on DevDiary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Aug 2020 11:15:05 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2020 20:05:33 +0200</lastBuildDate>
     
 	<atom:link href="https://devdiary.wachulec.me/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to add permissions to hard drives on Ubuntu?</title>
+      <link>https://devdiary.wachulec.me/post/how-to-add-permissions-to-hard-drives/</link>
+      <pubDate>Sun, 30 Aug 2020 20:05:33 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/post/how-to-add-permissions-to-hard-drives/</guid>
+      <description>If you want to add privileges to external drive for writing and executing, you have to call below command:</description>
+    </item>
+    
+    <item>
+      <title>How to allow use not-system disks by applications installed via snap on Ubuntu?</title>
+      <link>https://devdiary.wachulec.me/post/how-to-allow-use-not-system-disks/</link>
+      <pubDate>Thu, 27 Aug 2020 09:26:04 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/post/how-to-allow-use-not-system-disks/</guid>
+      <description>If you will install application via Snap on Ubuntu and you would like to have an access to the data stored on not-system disks, you have to add special plugin which allow these applications on access to these disks.</description>
+    </item>
     
     <item>
       <title>How to schedule job on Ubuntu?</title>
