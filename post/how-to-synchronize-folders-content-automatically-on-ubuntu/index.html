@@ -3,7 +3,7 @@
     <title> Piotr Wachulec | How to synchronize folders&#39; content automatically on Ubuntu? </title>
 
     
-    <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.78.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="It&#39;s my handy diary. If I have to hack something during my daily dev work, I&#39;m writing about it here to not forget.">
     
     <link rel="stylesheet"
@@ -177,7 +177,7 @@
                 
             </div>
 
-            <p>To synchronize folders&rsquo; content on Ubuntu you can use Rsync. It is a tool designed specially for that purposes.</p>
+            <p>To synchronize folders' content on Ubuntu you can use Rsync. It is a tool designed specially for that purposes.</p>
 <p>Basic usage:</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">rsync -a &lt;source_dir&gt;/ &lt;destination_dir&gt;
 </code></pre></div><p>Flag <code>-a</code> means that we wan to synchronize content recursively and preserve all symbolic links etc. Trailing slash at the end of the first argument means that we want to take content of source directory. If we forget about it, we will get path: <code>&lt;destination_dir&gt;/&lt;source_dir/&gt;[content]</code>.</p>
