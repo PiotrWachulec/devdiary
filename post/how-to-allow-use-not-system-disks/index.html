@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" data-theme=""><head>
+    <title> Piotr Wachulec | How to allow use not-system disks by applications installed via snap on Ubuntu? </title>
+
+    
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.78.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="It&#39;s my handy diary. If I have to hack something during my daily dev work, I&#39;m writing about it here to not forget.">
+    
+    <link rel="stylesheet"
+          href="https://devdiary.wachulec.me/css/style.min.ae4af30f6a89627b05def70e914c14cbb53a71d28a88ec8d87a40ecc7c2778e2.css"
+          integrity="sha256-rkrzD2qJYnsF3vcOkUwUy7U6cdKKiOyNh6QOzHwneOI="
+          crossorigin="anonymous"
+          type="text/css">
+    <link rel="stylesheet"
+          href="https://devdiary.wachulec.me/css/newsletter-form.41ab8feeeba31fe76d273b3cf27a31ff6acd2203b4c18108390653b995d72a80.css"
+          integrity="sha256-QauP7uujH&#43;dtJzs88nox/2rNIgO0wYEIOQZTuZXXKoA="
+          crossorigin="anonymous"
+          type="text/css">
+    <link rel="stylesheet"
+          href="https://devdiary.wachulec.me/css/custom-404.4d004d0c1d8eb31d0dbea86c4435d31dfd26884b493ae362a3dc686dd360a25a.css"
+          integrity="sha256-TQBNDB2Osx0NvqhsRDXTHf0miEtJOuNio9xobdNgolo="
+          crossorigin="anonymous"
+          type="text/css"><link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+
+    
+    <link rel="shortcut icon" href="https://devdiary.wachulec.mefavicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://devdiary.wachulec.meapple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://devdiary.wachulec.mefavicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://devdiary.wachulec.mefavicon-16x16.png">
+
+    <link rel="canonical" href="https://devdiary.wachulec.me/post/how-to-allow-use-not-system-disks/">
+
+    
+    
+    
+    
+    <script type="text/javascript"
+            src="https://devdiary.wachulec.me/js/anatole-header.min.e782db136ec18d105a4552702eac49f4620d6867da3fbf808bd53e806c96be6e.js"
+            integrity="sha256-54LbE27BjRBaRVJwLqxJ9GINaGfaP7&#43;Ai9U&#43;gGyWvm4="
+            crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?forceLang=en&amp;tracking=1&amp;thirdparty=1&amp;always=1&amp;showPolicyLink=1&amp;privacyPage=https%3A%2F%2Fdevdiary.wachulec.me%2Fprivacy%2F"></script>
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to allow use not-system disks by applications installed via snap on Ubuntu?"/>
+<meta name="twitter:description" content="If you will install application via Snap on Ubuntu and you would like to have an access to the data stored on not-system disks, you have to add special plugin which allow these applications on access to these disks."/>
+
+</head>
+<body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+        <div class="title">
+            <img src="https://devdiary.wachulec.me/images/profile_square.jpg" alt="profile picture">
+            <h3 title=""><a href="/">I&#39;m Piotr Wachulec</a></h3>
+            <div class="description">
+                <p>It&#39;s my handy diary. If I have to hack something during my daily dev work, I&#39;m writing about it here to not forget.</p>
+            </div>
+        </div>
+    </div>
+    <ul class="social-links">
+        
+            <li>
+                <a href="https://github.com/PiotrWachulec/" rel="me" aria-label="">
+                    <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://www.linkedin.com/in/piotrwachulec/" rel="me" aria-label="">
+                    <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://www.facebook.com/PiotrWachulecOnSoftware/" rel="me" aria-label="">
+                    <i class="fab fa-facebook fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://twitter.com/piotrwachulec" rel="me" aria-label="">
+                    <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://www.instagram.com/piotr_wachulec_on_software/" rel="me" aria-label="">
+                    <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://www.youtube.com/channel/UC6L70fSSgyXBscFTgCnBLWg" rel="me" aria-label="">
+                    <i class="fab fa-youtube fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="mailto:piotr@wachulec.me" rel="me" aria-label="">
+                    <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://wachulec.me/" rel="me" aria-label="">
+                    <i class="fas fa-address-card fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Piotr Wachulec 2020 </div>
+    </div>
+</div>
+<div class="main">
+    <div class="page-top animated fadeInDown">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+    <ul class="nav" id="navMenu">
+        
+        
+            
+            <li><a 
+                   href="/"
+                        
+                   title="">Home</a></li>
+        
+            
+            <li><a 
+                   href="/post/"
+                        
+                   title="">Posts</a></li>
+        
+            
+            <li><a 
+                   href="/about/"
+                        
+                   title="">About</a></li>
+        
+            
+            <li><a 
+                   href="/contact/"
+                        
+                   title="">Contact</a></li>
+        
+            
+            <li><a 
+                   href="/privacy/"
+                        
+                   title="">Privacy</a></li>
+        
+        
+        <li class="theme-switch-item">
+            <a class="theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+    <div class="autopagerize_page_element">
+        <div class="content">
+    <div class="post animated fadeInDown">
+        <div class="post-content">
+
+            <div class="post-title">
+                <h3>How to allow use not-system disks by applications installed via snap on Ubuntu?</h3>
+                
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date">Thu, Aug 27, 2020</span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">One-minute read</span>
+                    </div>
+                
+            </div>
+
+            <p>If you will install application via Snap on Ubuntu and you would like to have an access to the data stored on not-system disks, you have to add special plugin which allow these applications on access to these disks. You can do that by calling below command:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo snap connect &lt;PACKAGE_NAME&gt;:removable-media
+</code></pre></div><p>Useful resource: <a href="https://askubuntu.com/questions/1121026/ubuntu-software-apps-cannot-access-non-system-disks">Ubuntu Software apps cannot access non-system disks</a></p>
+<h3>Newsletter</h3>
+<p>Thank you for visiting my website. I hope you enjoyed content which I prepared and learned something valuable from it. If you want to be informed about my next entries or occasionally get a message with a collection of some interesting links, please subscribe to my newsletter. I will be extremely pleased if you do this and join my community!</p>
+
+<form action="https://wachulec.us4.list-manage.com/subscribe/post?u=2324c62a24ba49bf4fe638e7a&amp;id=d8fba7ef5c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" validate>
+    <ul class="form-style-1">
+        <li>
+            <label for="mce-FNAME">Name <span class="required">*</span></label>
+            <input type="text" name="FNAME" value="" class="field-long" />
+        </li>
+        <li>
+            <label for="mce-EMAIL">Email <span class="required">*</span></label>
+            <input type="email" name="EMAIL" value="" class="field-long" />
+        </li>
+        <li style="display:none">
+            <input type="checkbox" value="1" name="group[70040][1]" id="mce-group[70040]-70040-0" checked>
+            <label for="mce-group[70040]-70040-0">BlogPost</label>
+        </li>
+        <li>
+            <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field" style="display: none;">
+                <label class="checkbox subfield" for="gdpr_43552">
+                    <input type="checkbox" id="gdpr_43552" name="gdpr[43552]" value="Y" class="av-checkbox " checked><span>Send me emails!</span>
+                </label>
+            </fieldset>
+            <p><small>By clicking button below you agree to send you news from my blog, about my products and services. Above data are stored in Mailchimp and I do not share them to anyone. More info you can find in <a href="//devdiary.wachulec.me/privacy/"> privacy policy.</a></small></p>
+        </li>
+        <li>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+        </li>
+        <li>
+            <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_2324c62a24ba49bf4fe638e7a_d8fba7ef5c" tabindex="-1" value="">
+            </div>
+        </li>
+    </ul>        
+</form>
+
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>
+(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));
+var $mcj = jQuery.noConflict(true);
+</script>
+
+        </div>
+        <div class="post-footer">
+            <div class="info">
+                <span class="separator"><a class="category" href="/categories/administration/">Administration</a></span>
+
+                <span class="separator"><a class="tag" href="/tags/linux/">linux</a><a class="tag" href="/tags/ubuntu/">ubuntu</a><a class="tag" href="/tags/snap/">snap</a></span>
+
+            </div>
+        </div>
+
+        
+            <div id="fb_comments_container">
+                    <h2>comments</h2>
+                    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "devdiary-wachulec-me" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                </div>
+        
+    </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript"
+        src="https://devdiary.wachulec.me/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js"
+        integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw="
+        crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript"
+        src="https://devdiary.wachulec.me/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js"
+        integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4="
+        crossorigin="anonymous"></script>
+
+<script type="text/javascript"
+        src="https://devdiary.wachulec.me/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js"
+        integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro="
+        crossorigin="anonymous"></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-172827842-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</body>
+
+</html>

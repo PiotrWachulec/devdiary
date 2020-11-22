@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cron on DevDiary</title>
+    <link>https://devdiary.wachulec.me/tags/cron/</link>
+    <description>Recent content in cron on DevDiary</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Aug 2020 11:15:05 +0200</lastBuildDate><atom:link href="https://devdiary.wachulec.me/tags/cron/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to schedule job on Ubuntu?</title>
+      <link>https://devdiary.wachulec.me/post/how-to-schedule-job-on-ubuntu/</link>
+      <pubDate>Thu, 20 Aug 2020 11:15:05 +0200</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/post/how-to-schedule-job-on-ubuntu/</guid>
+      <description>For scheduling job you should use Cron. It is a time-based job scheduler.</description>
+    </item>
+    
+  </channel>
+</rss>
