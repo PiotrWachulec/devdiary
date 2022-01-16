@@ -6,7 +6,16 @@
     <description>Recent content in git on DevDiary</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2020 18:08:38 +0200</lastBuildDate><atom:link href="https://devdiary.wachulec.me/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jan 2022 20:03:13 +0100</lastBuildDate><atom:link href="https://devdiary.wachulec.me/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to init submodules after cloning the repository?</title>
+      <link>https://devdiary.wachulec.me/post/how-to-init-submodules-after-cloning-repository/</link>
+      <pubDate>Sat, 15 Jan 2022 20:03:13 +0100</pubDate>
+      
+      <guid>https://devdiary.wachulec.me/post/how-to-init-submodules-after-cloning-repository/</guid>
+      <description>If you cloned the repository where the submodules are used, you need to run the below command from the root of the repository:</description>
+    </item>
+    
     <item>
       <title>How to update forked repo with changes from main repository?</title>
       <link>https://devdiary.wachulec.me/post/how-to-update-forked-repo-with-changes-from-main-repository/</link>
