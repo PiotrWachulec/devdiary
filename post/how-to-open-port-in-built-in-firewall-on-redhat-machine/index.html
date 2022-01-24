@@ -1,5 +1,5 @@
 <!doctype html><html lang=en data-theme><head>
-<title> Piotr Wachulec | How to add permissions to hard drives on Ubuntu? </title>
+<title> Piotr Wachulec | How to open port in built-in firewall on the RedHat machine? </title>
 <meta charset=utf-8><meta name=generator content="Hugo 0.92.0"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name=description content="It's my handy diary. If I have to hack something during my daily dev work, I'm writing about it here to not forget.">
 <link rel=stylesheet href=https://devdiary.wachulec.me/css/style.min.cf1a79e57110a79f2495dd1b2ddd6917f99cd654f5a180c165921094a29f6b6a.css integrity="sha256-zxp55XEQp58kld0bLd1pF/mc1lT1oYDBZZIQlKKfa2o=" crossorigin=anonymous type=text/css>
@@ -11,11 +11,11 @@
 <link rel=apple-touch-icon sizes=180x180 href=https://devdiary.wachulec.me/apple-touch-icon.png>
 <link rel=icon type=image/png sizes=32x32 href=https://devdiary.wachulec.me/favicon-32x32.png>
 <link rel=icon type=image/png sizes=16x16 href=https://devdiary.wachulec.me/favicon-16x16.png>
-<link rel=canonical href=https://devdiary.wachulec.me/post/how-to-add-permissions-to-hard-drives/>
+<link rel=canonical href=https://devdiary.wachulec.me/post/how-to-open-port-in-built-in-firewall-on-redhat-machine/>
 <script type=text/javascript src=https://devdiary.wachulec.me/js/anatole-header.min.7fccea9612e197b0736c6262484db9af65cc9e9c1f1ea31ab6321016549ecff7.js integrity="sha256-f8zqlhLhl7BzbGJiSE25r2XMnpwfHqMatjIQFlSez/c=" crossorigin=anonymous></script><script src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?forceLang=en&tracking=1&thirdparty=1&always=1&showPolicyLink=1&privacyPage=https%3A%2F%2Fdevdiary.wachulec.me%2Fprivacy%2F"></script>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="How to add permissions to hard drives on Ubuntu?">
-<meta name=twitter:description content="Mouting drives could be insufficient to write data or execute scripts from external disks. Then you have to add additional privileges to disk.">
+<meta name=twitter:title content="How to open port in built-in firewall on the RedHat machine?">
+<meta name=twitter:description content="Here you can find the info on how to open port in built-in firewall on the RedHat machine.">
 </head>
 <body><div class="sidebar animated fadeInDown">
 <div class=logo-title>
@@ -98,23 +98,100 @@
 <div class="post animated fadeInDown">
 <div class=post-content>
 <div class=post-title>
-<h3>How to add permissions to hard drives on Ubuntu?</h3>
+<h3>How to open port in built-in firewall on the RedHat machine?</h3>
 <div class=info>
 <em class="fas fa-calendar-day"></em>
-<span class=date>Sun, Aug 30, 2020</span>
+<span class=date>Mon, Jan 24, 2022</span>
 <em class="fas fa-stopwatch"></em>
-<span class=reading-time>One-minute read</span>
+<span class=reading-time>2-minute read</span>
 </div>
 </div>
-<p>If you want to add privileges to external drive for writing and executing, you have to call below command:</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>sudo chmod ugo+wx &lt;path_to_drive&gt;
-</code></pre></div><p>Of course you have to remember that giving all permissions is good probably for the home use only. In the other cases you always should give only minimum required permissions.</p>
-<p>Useful resource: <a href=https://askubuntu.com/questions/90339/how-do-i-set-read-write-permissions-my-hard-drives>How do I set read/write permissions my hard drives?</a></p>
+<p>To check the current state of the RedHat built-in firewall, you need to call the below command:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>sudo firewall-cmd --list-all
+</code></pre></div><p>You should get something like this:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=o>[</span>xxx@xxx ~<span class=o>]</span>$ sudo firewall-cmd --list-all
+public <span class=o>(</span>active<span class=o>)</span>
+  target: default
+  icmp-block-inversion: no
+  interfaces: eth0
+  sources: 
+  services: cockpit dhcpv6-client ssh
+  ports:
+  protocols: 
+  masquerade: no
+  forward-ports: 
+  source-ports: 
+  icmp-blocks: 
+  rich rules: 
+</code></pre></div><p>You can also check <code>iptables</code> with <code>sudo iptables-save | grep &lt;port_number></code> command.</p>
+<p>To add new rule you need to call the below commands (remembering to update the port number):</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>sudo firewall-cmd --zone<span class=o>=</span>public --add-port<span class=o>=</span>8080/tcp --permanent
+sudo firewall-cmd --reload
+</code></pre></div><p>The result should be like below:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=o>[</span>xxx@xxx ~<span class=o>]</span>$ sudo firewall-cmd --zone<span class=o>=</span>public --add-port<span class=o>=</span>8080/tcp --permanent
+success
+<span class=o>[</span>xxx@xxx ~<span class=o>]</span>$ sudo firewall-cmd --reload
+success
+</code></pre></div><p>When you will check the firewall state, the new port should be visible:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=o>[</span>xxx@xxx ~<span class=o>]</span>$ sudo firewall-cmd --list-all
+public <span class=o>(</span>active<span class=o>)</span>
+  target: default
+  icmp-block-inversion: no
+  interfaces: eth0
+  sources: 
+  services: cockpit dhcpv6-client ssh
+  ports: 8080/tcp
+  protocols: 
+  masquerade: no
+  forward-ports: 
+  source-ports: 
+  icmp-blocks: 
+  rich rules: 
+</code></pre></div><h3>Newsletter</h3>
+<p>Thank you for visiting my website. I hope you enjoyed content which I prepared and learned something valuable from it. If you want to be informed about my next entries or occasionally get a message with a collection of some interesting links, please subscribe to my newsletter. I will be extremely pleased if you do this and join my community!</p>
+<form action="https://wachulec.us4.list-manage.com/subscribe/post?u=2324c62a24ba49bf4fe638e7a&id=d8fba7ef5c" method=post id=mc-embedded-subscribe-form name=mc-embedded-subscribe-form target=_blank validate>
+<ul class=form-style-1>
+<li>
+<label for=mce-FNAME>Name <span class=required>*</span></label>
+<input type=text name=FNAME class=field-long>
+</li>
+<li>
+<label for=mce-EMAIL>Email <span class=required>*</span></label>
+<input type=email name=EMAIL class=field-long>
+</li>
+<li style=display:none>
+<input type=checkbox value=1 name=group[70040][1] id=mce-group[70040]-70040-0 checked>
+<label for=mce-group[70040]-70040-0>BlogPost</label>
+</li>
+<li>
+<fieldset class="mc_fieldset gdprRequired mc-field-group" name=interestgroup_field style=display:none>
+<label class="checkbox subfield" for=gdpr_43552>
+<input type=checkbox id=gdpr_43552 name=gdpr[43552] value=Y class=av-checkbox checked><span>Send me emails!</span>
+</label>
+</fieldset>
+<p><small>By clicking button below you agree to send you news from my blog, about my products and services. Above data are stored in Mailchimp and I do not share them to anyone. More info you can find in <a href=//devdiary.wachulec.me/privacy/> privacy policy.</a></small></p>
+</li>
+<li>
+<input type=submit value=Subscribe name=subscribe id=mc-embedded-subscribe>
+</li>
+<li>
+<div id=mce-responses class=clear>
+<div class=response id=mce-error-response style=display:none></div>
+<div class=response id=mce-success-response style=display:none></div>
+</div>
+<div style=position:absolute;left:-5000px aria-hidden=true>
+<input type=text name=b_2324c62a24ba49bf4fe638e7a_d8fba7ef5c tabindex=-1>
+</div>
+</li>
+</ul>
+</form>
+<script type=text/javascript src=//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js></script>
+<script type=text/javascript>(function(a){window.fnames=new Array,window.ftypes=new Array,fnames[0]='EMAIL',ftypes[0]='email',fnames[1]='FNAME',ftypes[1]='text'})(jQuery);var $mcj=jQuery.noConflict(!0)</script>
 </div>
 <div class=post-footer>
 <div class=info>
 <span class=separator><a class=category href=/categories/administration/>Administration</a></span>
-<span class=separator><a class=tag href=/tags/linux/>linux</a><a class=tag href=/tags/ubuntu/>ubuntu</a><a class=tag href=/tags/privileges/>privileges</a></span>
+<span class=separator><a class=tag href=/tags/linux/>linux</a><a class=tag href=/tags/redhat/>redhat</a></span>
 </div>
 </div>
 <div id=fb_comments_container>
